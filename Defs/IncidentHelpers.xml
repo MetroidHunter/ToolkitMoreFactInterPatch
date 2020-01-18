@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>ReverseTradeRequest</defName>
+    <label>reverse trade request</label>
+    <abbreviation>reversetraderequest</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_ReverseTradeRequest</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>ReverseTradeRequest</defName>
+    <label>reverse trade request</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_ReverseTradeRequest</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentVariables>
+    <defName>PirateExtortion</defName>
+    <label>pirate extortion</label>
+    <abbreviation>pirateextortion</abbreviation>
+    <cost>1500</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_Extortion</incidentHelper>
+    <karmaType>Bad</karmaType>
+    <minPointsToFire>1500</minPointsToFire>
+    <maxWager>10000</maxWager>
+    <syntax>!buy pirateextortion 1500</syntax>
+    <variables>1</variables>
+  </TwitchToolkit.Incidents.StoreIncidentVariables>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>PirateExtortion</defName>
+    <label>pirate extortion</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Hazard</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_Extortion</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentVariables>
+    <defName>WoundedCombatants</defName>
+    <label>wounded combatants</label>
+    <abbreviation>woundedcombatants</abbreviation>
+    <cost>1500</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_WoundedCombatants</incidentHelper>
+    <karmaType>Neutral</karmaType>
+    <minPointsToFire>1500</minPointsToFire>
+    <maxWager>10000</maxWager>
+    <syntax>!buy woundedcombatants 1500</syntax>
+    <variables>1</variables>
+  </TwitchToolkit.Incidents.StoreIncidentVariables>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>WoundedCombatants</defName>
+    <label>wounded combatants</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_WoundedCombatants</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>Roadworks</defName>
+    <label>roadworks</label>
+    <abbreviation>roadworks</abbreviation>
+    <cost>5000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_Roadworks</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>Roadworks</defName>
+    <label>roadworks</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_Roadworks</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>DiplomaticMarriage</defName>
+    <label>diplomatic marriage</label>
+    <abbreviation>diplomaticmarriage</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_DiplomaticMarriage</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>DiplomaticMarriage</defName>
+    <label>diplomatic marriage</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_DiplomaticMarriage</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>MysticalShaman</defName>
+    <label>mystical shaman</label>
+    <abbreviation>mysticalshaman</abbreviation>
+    <cost>5000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_MysticalShaman</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>MysticalShaman</defName>
+    <label>mystical shaman</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_MysticalShaman</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>HuntersLodge</defName>
+    <label>hunters lodge</label>
+    <abbreviation>hunterslodge</abbreviation>
+    <cost>5000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_HuntersLodge</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>HuntersLodge</defName>
+    <label>hunters lodge</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_HuntersLodge</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>BaseAttack</defName>
+    <label>base attack</label>
+    <abbreviation>baseattack</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_SettlementBaseAttack</incidentHelper>
+    <karmaType>Bad</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>BaseAttack</defName>
+    <label>base attack</label>
+    <weight>3</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Invasion</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_SettlementBaseAttack</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>BumperCrop</defName>
+    <label>bumper crop</label>
+    <abbreviation>bumpercrop</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_BumperCrop</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>BumperCrop</defName>
+    <label>bumper crop</label>
+    <weight>3</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_BumperCrop</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>PeaceTalks</defName>
+    <label>peace talks</label>
+    <abbreviation>peacetalks</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_FactionPeaceTalks</incidentHelper>
+    <karmaType>Good</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>PeaceTalks</defName>
+    <label>peace talks</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Good</eventType>
+    <eventCategory>Foreigner</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_FactionPeaceTalks</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>AnnualExpo</defName>
+    <label>annual expo</label>
+    <abbreviation>annualexpo</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_AnnualExpo</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>AnnualExpo</defName>
+    <label>annual expo</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_AnnualExpo</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>PirateCamp</defName>
+    <label>pirate camp</label>
+    <abbreviation>piratecamp</abbreviation>
+    <cost>3000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitMoreFactInterPatch.IncidentHelper_MFI_QuestSpreadingPirateCamp</incidentHelper>
+    <karmaType>Bad</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>PirateCamp</defName>
+    <label>pirate camp</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitMoreFactInterPatch.VoteHelper_MFI_QuestSpreadingPirateCamp</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+</Defs>
